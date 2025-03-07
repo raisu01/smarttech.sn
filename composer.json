@@ -1,0 +1,8 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "phpmailer/phpmailer": "^6.9",
+        "league/flysystem-sftp": "^3.28",
+        "respect/validation": "^2.4"
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.9"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.9"
+  },
+  "scripts": {
+  "serve": "php -S localhost:8000 -t .",
+  "start": "browser-sync start --proxy localhost:8000 --files '**/*.php, **/*.css, **/*.js'"
+}
+
+}
